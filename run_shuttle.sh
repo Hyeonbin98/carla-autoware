@@ -9,7 +9,7 @@ else
 fi
 
 docker run \
-    -it --rm \
+    -it \
     --volume=$(pwd)/autoware-contents:/home/autoware/autoware-contents:ro \
     --env="DISPLAY=${DISPLAY}" \
     --privileged \
